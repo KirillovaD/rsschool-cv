@@ -60,13 +60,17 @@ scss
     }
 ``` 
 ## Education
+### Courses
+
 RS Schools Course "JavaScript/Front-end. Stage 0" in progress
 
 
 ITGirls school "Front-end developer" in progress 
 
+### Professional edication
+
 
 British High School of Design, "Graphic designer"
 
 
-Polytechnical University of Saint-Petersburg, "Manager of organization"
+Polytechnical University of Saint-Petersburg, "Manager of organization" 
