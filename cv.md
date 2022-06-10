@@ -66,7 +66,7 @@ RS Schools Course "JavaScript/Front-end. Stage 0" in progress
 ITGirls school "Front-end developer" in progress 
 
 
-BHSD, "Graphic designer"
+British High School of Design, "Graphic designer"
 
 
 Polytechnical University of Saint-Petersburg, "Manager of organization"
