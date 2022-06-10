@@ -1,1 +1,2 @@
-[# rsschool-cv](https://KirillovaD.githab.io/rsschool-cv/cv)
+[# rsschool-cv](https://KirillovaD.github.io/rsschool-cv/)
+
