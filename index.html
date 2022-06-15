@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/profile.ico">
+    <title>CV</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code examples</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section_profile" id="profile">
+                <img src="assets/ava.png" alt="Фото" width="300">
+                <div class="section_profile_info">
+                    <h1 class="section-title">Daria Kirillova</h1>
+                    <h3 class="section-title">Junior frontend developer</h3>
+                </div>
+
+            </section>
+            <section class="section section_contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li>
+                        <p>Phone: <em>+7 916 2501571</em></p>
+                    </li>
+                    <li>
+                        <p>E-mail: <em>sdaria@inbox.ru</em></p>
+                    </li>
+                    <li>
+                        <p>GitHub: <a href="https://github.com/KirillovaD" class="link"><em>KirillovaD</em></a></p>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="about-me">
+                <h2 class="section-title">About me</h2>
+                <p>I am a junior frontend developer.</p>
+                <p>My goal is to give a try for making people's life easier and comfy. I'd like to take part in the
+                    creation and/or development client-oriented products.
+                </p>
+                <p>My priorities are doing my best and don't stop to learn. I search for meanings in what I do and would
+                    work hard if it make sense for people and reaches meaningful goals.
+                </p>
+                <p>I have experience in different fields so it gave me the opportunity to broaden my horizons and taught
+                    to step outside
+                    my comfort zones and become more flexible. </p>
+                <p>My university education and work experience as a manager allows me not only organize and communicate
+                    but also understand the needs of customers and clients.
+                </p>
+                <p>Also, I have a degree in graphic design that's helped me to be creative and have a vision of the
+                    entire work.</p>
+                <p>I do not accept any type of aggression.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <h3 class="section-title">Hard</h3>
+                <ul class="section-list">
+                    <li class="section-item">HTML, CSS (flex, grid, sass)</li>
+                    <li class="section-item">Git, Github</li>
+                    <li class="section-item">JS, React</li>
+                    <li class="section-item">Agile, BEM methodology</li>
+                    <li class="section-item">Adobe Photoshop, Adobe Illustartor, InDesign, Figma</li>
+                    <li class="section-item">Trello, miro, slack, notion, asana</li>
+                </ul>
+                <h3 class="section-title">Soft</h3>
+                <ul class="section-list">
+                    <li class="section-item">Communicable, team-worker</li>
+                    <li class="section-item">Creativity</li>
+                    <li class="section-item">Flexible</li>
+                </ul>
+                <h3 class="section-title">Languages</h3>
+                <ul class="section-list">
+                    <li class="section-item">Russian - native</li>
+                    <li class="section-item">English - upper-intermidiate</li>
+                </ul>
+            </section>
+            <section class="section section_code" id="code">
+                <h2 class="section-title">Code example</h2>
+                <p>You can find more of my projects on my <a href="(https://github.com/KirillovaD)"
+                        class="link"><em>GitHub
+                            page</em></a></p>
+                <code>
+                    h1 {
+                    @extend %h1;
+                    color: $dark-blue;
+                    text-align:center
+                    }
+                </code>
+
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <h3 class="section-title">Courses</h3>
+                <ul class="section-list">
+                    <li class="section-item">RS Schools Course "JavaScript/Front-end. Stage 0" in progress</li>
+                    <li class="section-item">ITGirls school "Front-end developer" in progress</li>
+                </ul>
+                <h3 class="section-title">Professional education</h3>
+                <ul class="section-list">
+                    <li class="section-item">British High School of Design, "Graphic designer"</li>
+                    <li class="section-item">Saint-Petersburg Polytechnical University, "Manager"</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container container_footer">
+            <a href="https://github.com/KirillovaD" class="link"><img src="./assets/Github.ico" alt="Github"
+                    width="30"></a>
+            <p>&copy2022</p>
+            <a href="https://rs.school/js/" class="link"><img src="./assets/rs_school_js.svg" alt="RSSchool"
+                    width="60"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
